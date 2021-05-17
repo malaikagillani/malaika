@@ -1,0 +1,59 @@
+ body{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            width: 800px;
+            height: auto;
+            background: rgb(209, 209, 209);
+            border-radius: 10px;
+            margin-left: 270px;
+            text-align: center;
+        }
+        .dataInForm{
+            text-align: left;
+        }
+        form{
+            width: 600px;
+            height: auto;
+            padding: 10px 10px;
+            -text-align: center;
+        }
+        .btn{
+            width: 80px;
+            border: 1px solid black;
+            background: none;
+        }
+        .btn:hover{
+           
+            border: none;
+            border-bottom: 1px solid green;
+            border-radius: 25px;
+            background-color: grey;
+        }
+        .resetBtn{
+            margin-left: 55px;
+        }
+        #name, #age, #city{
+            width: 60%;
+            height: 30px;
+            background: none;
+            border: 1px solid green;
+            font-size: 20px;
+        }
+        .editAction:hover{
+            color: white;
+            background-color: green;
+        }
+        .removeAction:hover{
+            color: white;
+            background-color:red;
+        }
+        .table{
+            width: 800px;
+            height: auto;
+            text-align: center;
+        }
+        .table, .table th, .table td {
+            border: 1px solid black;
+        }
